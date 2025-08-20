@@ -8,7 +8,7 @@ export const colors = {
   border: '#555555'
 };
 
-export const fontSizes = {
+export const fonts = {
   main: 'Arial, sans-serif',
   starwars: 'Star Jedi, sans-serif'
 };
