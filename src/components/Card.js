@@ -46,7 +46,7 @@ const Card = ({ name, type, details,url }) => {
             <CardTitle>{name}</CardTitle>
             {details && Object.entries(details).map(([key,value])=> (
                 <CardDetail key={key}>
-                    <strong>{key}:</strong> 
+                    <strong>{key}:{value}</strong> 
                 </CardDetail>
             ))}
         </CardContainer>

@@ -1,6 +1,20 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://swapi.info/api/';
+// const API_BASE_URL = 'https://swapi.info/api/';
+// const API_BASE_URL = 'http://swapi.dev/api/';
+const API_BASE_URL = 'https://swapi.py4e.com/api/'
+
+// export async function fetchEntities(type, page = 1, search = '') {
+//   const params = { page }
+//   if (search) params.search = search
+//   const { data } = await axios.get(`${API_BASE_URL}${type}/`, { params })
+//   return data
+// }
+
+// export async function fetchEntityDetails(url) {
+//   const { data } = await axios.get(url)
+//   return data
+// }
 
 export const fetchEntities = async (type,page=1) => {
   try {
@@ -22,6 +36,9 @@ export const fetchEntityDetails = async (url) => {
     }
 };
 
+
+
+//*************************************************************************************** */
 // export const fetchEntityById = async (type, id) => {
 //   try {
 //     const response = await axios.get(`${API_BASE_URL}${type}/${id}/`);

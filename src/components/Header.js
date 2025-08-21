@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { colors,fonts } from '../styles/variables';
-import variables from '../styles/variables';
-import { Link } from  "react-router-dom";
+// import variables from '../styles/variables';
+// import { Link } from  "react-router-dom";
 
 const AppHeader = styled.header`
     background-color: ${colors.teritiary};
